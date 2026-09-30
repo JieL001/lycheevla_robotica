@@ -1,0 +1,21 @@
+{
+ "fruit_mass_kg": [
+  0.11309733986854553,
+  0.11309733986854553,
+  0.11309733986854553
+ ],
+ "fruit_radius_m": 0.03,
+ "sim_freq_hz": 100,
+ "control_freq_hz": 20,
+ "control_mode": "pd_ee_delta_pose",
+ "stem_K": 300.0,
+ "stem_C": 8.0,
+ "pull_dist_m": 0.02,
+ "pull_cone_deg": 60.0,
+ "n_fruit_actors": 5,
+ "gripper_limits": [
+  -0.01,
+  0.04
+ ],
+ "gripper_force_limit": "100"
+}

@@ -1,0 +1,70 @@
+# Checkpoints
+
+Weights of the networks behind the main tables of the paper (PyTorch `torch.save` dictionaries with the training arguments; `scripts/eval_select.py` and `scripts/eval_modular.py` load them).
+The records of `checkpoint <name>.pt` are `lychee-code/results/eval/s_<name>__<split>.jsonl` (`detector_s<k>` is evaluated as `mod_det[_s<k>]`).
+
+| file | SHA-256 |
+|---|---|
+| `detector_s0.pt` | `3b524d6a2aa1230ccc7dae3284152041b2c67888e7651c742507b6505af8b469` |
+| `detector_s1.pt` | `8d36aee9b08caff0efc1ef41832c09fae76073166be38e53d10b07faf92b4dbb` |
+| `detector_s2.pt` | `17326e89d458ffec5c440c4e571cb2a9c137563fa7a5beb201d6998d6539a487` |
+| `r0_matched90_film.pt` | `19d2e3dc8622e447278e1827611feda269094de388e360272b39cc7f73f14e64` |
+| `r0_matched90_film_s1.pt` | `7973c5eb7f2d2d3e82752d51826ca97e916a34e7d63867760d7dd8144dc2c85f` |
+| `r0_matched90_film_s2.pt` | `1b14fca9e4d9c043fac061de6d21f53402ac9b98074a9dcf3ec0b6b734a1b67c` |
+| `r0_rho00_far146.pt` | `fb929ac493daeaab86e8369e5cef8cbbacd3f7dad4696ae5ed1ac0cf1662faae` |
+| `r0_rho00_far146_s1.pt` | `d1058ad645576add04816eb5fbd307cc2ab919eadf1252d2eb171fbcacb18b6d` |
+| `r0_rho00_far146_s2.pt` | `ce753c53270f8350c5b5de37befed76aaaceff7b7a0c92390f349a13038477f5` |
+| `r0_rho00_film.pt` | `03ad290385c63728ce2932f49a13ebcefffcd427c0e80a10a4268bec6e4d14bb` |
+| `r0_rho00_film_s1.pt` | `f5f22d1ef3f15649874c8179d4488b332f4512ee4c802fc358e250151b2220b9` |
+| `r0_rho00_film_s2.pt` | `72239c5a857c3acb2f8d126f0dcbbd6ec5099b047a445a847a3a9f5dd0849f1e` |
+| `r0_rho00_film_s3.pt` | `286e2f91f63d7bf65621ee811781cb500bf5035fd9358b452bcec5fe953d7e93` |
+| `r0_rho00_film_s4.pt` | `17eaae528249fcabbc886489aaacac8e167d6166b867ebd9cf065d93c91488cd` |
+| `r0_rho90_film.pt` | `0a447c1c09410a76d983e38932d4c9d1ad52909a9eb38236cb4ae7b27a469b41` |
+| `r0_rho90_film_s1.pt` | `3c3f75f4fa202f5f8534abd5f7183ffd0642b853d74124ee6c1f07911ca8b6c9` |
+| `r0_rho90_film_s2.pt` | `a8bfbc258655f910112e5dc805d50d74b58b18ed627e52c557778febdcc56306` |
+| `r0_rho90_film_s3.pt` | `3b5643858dd80da56017b914bcc04abb4e92a8ecb8168057fd32462a0c940c41` |
+| `r0_rho90_film_s4.pt` | `330064c207dbb5e79b67ec24360c3e1eb4be61dc0f77310117fc8fa9467cefed` |
+| `r1_blank_film.pt` | `a31a22b266654cd17dada2f017777c235c30b4242d6a5f73db0298c9ffa41c87` |
+| `r1_film.pt` | `6367057d23d7838df7080acd95fafbe98ad9a8b50b695693818af5356fe33d8a` |
+| `r1_film_lr3e-3.pt` | `7dd4d37024ed286819f6ba5afc20465f6a1514a1b1755a4b399dc3674e44ca42` |
+| `r1_film_lr3e-4.pt` | `578cb3ed44ebb463c6bd137143e68de1aa532f1765e01d8e7d7cb9b314f3cb4e` |
+| `r1_film_s1.pt` | `35496e2af812bbef598ec4731d28270b7777c679974a31583047c5945d80a027` |
+| `r1_film_s2.pt` | `cfcb782afceafa7e791d350985987ad260eb7172f910eda23a2f76abfbe30d6e` |
+| `r1_film_s3.pt` | `ce20024ae24bf22c8a4944a4aea84d3217b764e13b465ec6f3e61ae4cdf0b870` |
+| `r1_film_s4.pt` | `30b75ea6bac27dbe839f2ff3af809a318c0d378b4dc43a439d9b5e3f2ee11e9e` |
+| `r1_film_shiftnone.pt` | `ff1350afaeee3c010d6ddd0abd09c3fd7c406ba483462886a464bd56d78296c4` |
+| `r1_film_shiftnone_s1.pt` | `02cf5fc65befa677f80f0c438e5634088f58e0b0b2657d22ff51112dd5a996c6` |
+| `r1_film_shiftnone_s2.pt` | `4b7be6bcda0e17de8d94450c2ad3c06451f8205b80e64f2dad25648477922869` |
+| `r1_film_shiftsync.pt` | `db3dd92387fdff9be7bb52e1f5860fc1b3400d6629818e4e34b9d1e61caf8b1a` |
+| `r1_film_shiftsync_s1.pt` | `81d2a6cdfbd59f69a39626b8ab865835aad0a437d899d12773342e30b9811622` |
+| `r1_film_shiftsync_s2.pt` | `7b35281bb2c15576e1b87dc95a2d8d495ce118c7c0c4d46293d1fce0c0b2e1cb` |
+| `r1_late.pt` | `b3981d2b5d77b2b1bab442f3b83f387139b121054ff9347c96ed1813c98db880` |
+| `r1_late_lr3e-3.pt` | `e7f69d4782a2bf602814d912c024ee06005b3600c94ee709abd0ac6e3cba2a11` |
+| `r1_late_lr3e-4.pt` | `63d1b1d1bd8f318d369b682ad3a25baa445f731e5a1e7f33f49e7ef7fa908ce3` |
+| `r1_late_s1.pt` | `73a5a05aa764cafc2ef5f3796073c4a68b8609c26f57d436d3aa8d14c46eeb05` |
+| `r1_late_s2.pt` | `ff1ef76e734532b0cc529035225a3d7b0e260e8accaf5734df3be3255191ae38` |
+| `r1_late_shiftnone.pt` | `ab5862590fe4361b30101180901122c3eea304ed3ab62247da9756d78d916031` |
+| `r1_late_shiftnone_s1.pt` | `8f9f223a795b8c5578dd81444a82194e82a4f4dce03248829b3a1359f4e90f68` |
+| `r1_late_shiftnone_s2.pt` | `66b84fb4e28967ef6866e0aaf62e4d1bacedba5df5f763f92261a702d5de8a78` |
+| `r1_late_shiftsync.pt` | `8a3db0eea65a3634b481a62bb3768e9533be8b3b05bd081170064b1fa86477b8` |
+| `r1_late_shiftsync_s1.pt` | `c441cec6aea065b7bc15b7d7c84ec376e12a5ab63631d4b4f84719ed62cd59c7` |
+| `r1_late_shiftsync_s2.pt` | `5526f36c6ae217e621861c3efd1e88907f1f3a4f6a6194c3c106efb2d7316d2f` |
+| `r1_late_wide.pt` | `be3967b819d438780ee559022334f2070d7055f87e70a34051f33355e370dc47` |
+| `r1_late_wide_s1.pt` | `05a8c3a49558039f5a87277be61c4a369b24dc5593cdf225f6897495c4f839e4` |
+| `r1_late_wide_s2.pt` | `4818f86f068ba79e23513ee37fd6e85ac53aef1cfa58085ad179eebada4ac077` |
+| `r1_token.pt` | `aa1c2bf9b2c7646d909e45359337e2ac2604caec4457d9b44c9dd510eabeae82` |
+| `r1_token_s1.pt` | `6a9f2da59d4da1ca4c2521e7bfeae16448d8b86cc6647905b956d94b2671dd64` |
+| `r1_token_s2.pt` | `aea7433f460e4b5966ae76b882a8e2e0e2472e42fabbb1880e662b45636e8ece` |
+| `r1u_film.pt` | `9c63bb76b0982babf74c2bbf77ee85a17909463d0e82caa578dd7bc7f13fc7bd` |
+| `r1u_film_s1.pt` | `e099ccafd0b3d29edb735fe19e2c5ca18720f614f117a5ef43ec3e9b64d07255` |
+| `r1u_film_s2.pt` | `c597bb80e68bea0d691b676affb348f3c2ba4d8f1dee6d0731f0664ff817c9aa` |
+| `r1u_film_s3.pt` | `a18c47022a9183541023e891445ae529397954ade692d35a2524d5475e6bca80` |
+| `r1u_film_s4.pt` | `5b81b345dc4d61f8d84895784bf8a72103329384e4bb9482b4f4ee9449173efc` |
+| `sym_r0_rho00.pt` | `b78ad3f20222c973d237fed887b6565cc5c1d7d9b84fbf7b15373e80797310ed` |
+| `sym_r0_rho50.pt` | `9245cc15145672059c07a74f9cc7cd8e146ef47fd6a73bef7ee7948307161a27` |
+| `sym_r0_rho90.pt` | `ae2b65f2607db1fca490556e753eb54df4ea6fb7d602ee4f6f7c2aa24701fb65` |
+| `sym_r0_rho97.pt` | `46fc91dd298456e6f60a931b425c74e1596374704e553c7f2190cad5fada88bf` |
+| `sym_r0_rho99.pt` | `9fa6cd45c94fe4e503c2fd64e71bcac39f358401237b2fbea028d69377113663` |
+| `sym_r1.pt` | `7c2f82a3fb50bde6081711fcc6b804152866eb2c28fddeda02e02c0f2139f833` |
+| `sym_r1_blank.pt` | `796a2ebc2509bd9342eac71a70fecae2ec731738aebba419daef828918b815ec` |
+| `sym_r1u.pt` | `798e332bfc032c2e03fa8b6dffd1821ca19d849ca7a48f47b3bc662b2337d0f4` |

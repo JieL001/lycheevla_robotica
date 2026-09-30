@@ -1,0 +1,8 @@
+# Check out text files with LF line endings on every platform (a Windows clone with core.autocrlf=true would otherwise rewrite them, and scripts/verify_reproduction.py compares the
+# regenerated table files with the shipped ones byte for byte).
+* text=auto eol=lf
+*.pt binary
+*.npz binary
+*.pdf binary
+*.png binary
+*.zip binary
